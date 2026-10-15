@@ -1,0 +1,22 @@
+model_provider = "company_gateway"
+# 启动器会用实时目录中选择的模型覆盖这里的默认值。
+model = "gpt-example"
+cli_auth_credentials_store = "ephemeral"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[model_providers.company_gateway]
+name = "Company 公司网关"
+base_url = "https://gateway.example.com/v1"
+wire_api = "responses"
+env_key = "ADA_API_KEY"
+requires_openai_auth = false
+request_max_retries = 4
+stream_max_retries = 10
+
+[shell_environment_policy]
+exclude = ["ADA_API_KEY", "OPENAI_API_KEY", "CODEX_API_KEY"]
+
+[tui]
+screen_reader_detection_done = true
+

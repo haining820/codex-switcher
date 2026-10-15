@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Codex 配置切换器</string>
+	<key>CFBundleExecutable</key>
+	<string>CodexSwitcher</string>
+	<key>CFBundleIconFile</key>
+	<string>SwitcherIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.example.codex-switcher</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Codex 配置切换器</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>在你确认切换后退出并重新打开 ChatGPT 桌面应用，使个人或公司配置生效。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>

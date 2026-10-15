@@ -1,0 +1,8 @@
+{
+  "gateway_url": "https://gateway.example.com/v1",
+  "dashboard_url": "https://console.example.com/usage",
+  "keychain_service": "com.example.codex-switcher.gateway",
+  "desktop_app": "/Applications/ChatGPT.app",
+  "desktop_bundle_id": "com.openai.codex",
+  "cli_app": "/Applications/codex-company.app"
+}
